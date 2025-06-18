@@ -43,7 +43,7 @@
 
   <script>
     let data;
-    fetch('char_schedule.json')
+    fetch('./char_schedule.json')
       .then(res => res.json())
       .then(json => {
         data = json;
